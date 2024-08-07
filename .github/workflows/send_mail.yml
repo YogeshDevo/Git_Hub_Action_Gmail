@@ -11,7 +11,7 @@ jobs:
 
         - name: Sending the mail
           if: ${{ always() }}
-          uses: devellany/send-mailer@v1.0.2
+          uses: YogeshDevo/send-mailer@v1.0.2
           with:
             server_address: smtp.google.com
             sever_port: 465
