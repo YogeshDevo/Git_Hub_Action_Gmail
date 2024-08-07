@@ -10,9 +10,9 @@ jobs:
           run: echo "Hello world"
 
         - name: Sending the mail
-          if: $ {{ always() }}
+          if: ${{ always() }}
            uses: devellany/send-mailer@v1.0.2
-            with:
+           with:
              server_address: smtp.google.com
              sever_port: 465
 
