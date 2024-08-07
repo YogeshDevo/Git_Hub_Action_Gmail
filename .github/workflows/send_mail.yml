@@ -19,5 +19,5 @@ jobs:
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: ${{ github.job }} job of ${{ github.repository }} has ${{ github.event_name }}
         body: ${{ github.job }} job in workflow ${{ github.workflow }} of ${{ github.repository }} has ${{ github.event_name }}
-        to: intern_devops@arizonsystems.com
+        to: yogeshlc021@gmail.com
         from: ${{ secrets.EMAIL_USERNAME }}
