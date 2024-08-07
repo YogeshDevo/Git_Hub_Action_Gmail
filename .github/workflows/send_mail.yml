@@ -18,6 +18,6 @@ jobs:
         username: ${{ secrets.EMAIL_USERNAME }}
         password: ${{ secrets.EMAIL_PASSWORD }}
         subject: Sending For You
-        body: Hello, Hansel
-        to: intern_2@arizonsystems.com
+        body: Hello, Narendra How Are You This Yoganathan.
+        to: intern_3@arizonsystems.com
         from: ${{ secrets.EMAIL_USERNAME }}
